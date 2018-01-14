@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<title>Nike</title>
+	<link rel="shortcut icon" href="favicon.png">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- header main card__gallary card__preview card__info card__title card__model card__raiting card__size-header card__size-list card__buttons cart__btn--accent -->
+
+	<div class="container">
+		<header class="header">
+			<a href="#" class="header__logo">
+				<img src="img/logo.png" alt="">
+			</a>
+			<a href="" class="header__toggle"></a>
+			<nav class="header__nav">
+				<ul class="header__nav-list">
+					<li class="header__nav-item"><a href="#" class="header__nav-link">Lifestyle</a></li>
+					<li class="header__nav-item"><a href="#" class="header__nav-link active">Running</a></li>
+					<li class="header__nav-item"><a href="#" class="header__nav-link">Football</a></li>
+					<li class="header__nav-item"><a href="#" class="header__nav-link">Skateboarding</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="card">
+			<div class="card__galery">
+				<span class="card__tm">huarache</span>
+				<img src="img/cross.png" alt="huarache" class="card__img">
+				<ul class="card__previews">
+					<li class="card__preview">
+						<a href="#" class="card__preview-link">
+							<img src="img/img2.png" alt="" class="card__preview-img">
+						</a>
+					</li>
+					<li class="card__preview">
+						<a href="#" class="card__preview-link">
+							<img src="img/img3.png" alt="" class="card__preview-img">
+						</a>
+					</li>
+					<li class="card__preview">
+						<a href="#" class="card__preview-link">
+							<img src="img/img4.png" alt="" class="card__preview-img">
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="card__info">
+				<span class="card__badge">new</span>
+				<h1 class="card__title">THE <span class="blue">RUNNING</span> HAS JUST BEGUN</h1>
+				<span class="card__model">Huarache</span>
+				<ul class="card__stars" data-stars="4">
+					<li class="card__star"></li>
+					<li class="card__star"></li>
+					<li class="card__star"></li>
+					<li class="card__star"></li>
+					<li class="card__star"></li>
+				</ul>
+
+				<!-- вариант с градиентом -->
+				<!-- <div class="stars" style="background: linear-gradient(to right, #efd813 25%, transparent 25%);">
+					<div class="stars__underlay"></div>
+					<div class="stars__overlay"></div>
+				</div> -->
+
+				<div class="stars">
+					<div class="stars__underlay" style="width: 33%;"></div>
+					<div class="stars__overlay"></div>
+				</div>
+
+				<div class="card__price" data-currency="$">200</div>
+				<div class="card__size-wrap">
+					<span class="card__size-title">Size</span>
+					<ul class="card__sizes">
+						<li class="card__size">7</li>
+						<li class="card__size">8</li>
+						<li class="card__size">9</li>
+						<li class="card__size active">10</li>
+						<li class="card__size">11</li>
+					</ul>
+				</div>
+				<a href="#" class="card__button card__button--accent">Add to Cart</a>
+				<a href="#" class="card__button">Wish List</a>
+			</div>
+		</main>
+	</div>
+</body>
+</html>
